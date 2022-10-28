@@ -9,9 +9,8 @@ char *rot13(char *s)
 {
 	int i, j;
 
-	char *x = "abcdefghi
-		pqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	PQRSTUVWXYZABCDEFGHIJKLM";
+	char *x = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char *y = "nopqrstuvwxyzabcdefghijklmNOPPQRSTUVWXYZABCDEFGHIJKLM";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
@@ -25,6 +24,5 @@ char *rot13(char *s)
 		}
 	}
 
-	return (s);
+	return (s)
 }
-	char *y = "nopqrstuvwxyzabcdefghi
