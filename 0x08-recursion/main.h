@@ -1,6 +1,7 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
+int _putchar(char);
 int wildcmp(char *s1, char *s2);
 int is_palindrome(char *s);
 int is_prime_number(int n);
